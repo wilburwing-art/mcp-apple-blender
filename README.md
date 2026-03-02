@@ -105,7 +105,7 @@ Gives Claude read/write access to Apple Notes via AppleScript IPC. List, search,
 ### Setup
 
 ```bash
-cd apple-notes-mcp
+cd apple-notes
 uv sync
 uv run python server.py
 ```

@@ -1,0 +1,11 @@
+[project]
+name = "apple-notes-mcp"
+version = "0.1.0"
+description = "MCP server for Apple Notes — read/write access via osascript"
+requires-python = ">=3.12"
+dependencies = [
+    "fastmcp>=2.14,<3",
+]
+
+[project.scripts]
+apple-notes-mcp = "server:main"
